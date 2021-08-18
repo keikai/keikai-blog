@@ -1,21 +1,22 @@
 ---
 layout: post
-title:  "Keikai 5.6.0 coming soon"
-date:   2021-01-05
+title:  "Keikai 5.8.0FL Ready for Testing!"
+date:   2021-08-18
 categories: "News"
-excerpt: "Keikai Spreadsheet is designed for turning excel to web and building spreadsheet applications. Upcoming 5.6.0 contains more than 30 enhancements."
+excerpt: "Keikai Spreadsheet is designed for turning excel to web and building spreadsheet applications. The upcoming 5.8.0 contains more than 30 enhancements and the 5.8.0 FL now ready for testing."
 
 index-intro: "
-[Announcement] 5.6.0 release
+[Announcement] 5.8.0 FL Ready for Testing
 "
-image: "2021-01-Keikai_release/560cover.png"
+image: "2021-08-Keikai_FL_invite/580FL.png"
 tags: marketing
-author: "Michelle Chen"
-authorImg: "/images/author/michelle.jpg"
+author: "Stella Wu"
+authorImg: "/images/author/stellaw.png"
 authorDesc: "Marketing, Keikai."
 
 
-imgDir: "2021-01-Keikai_release"
+
+imgDir: "2021-08-Keikai_FL_invite/580FL.png"
 javadoc: "http://keikai.io/javadoc/latest/"
 ---
 <!--
@@ -23,24 +24,63 @@ images come from https://drive.google.com/open?id=17EEz_BuTVsTSeAA3a8AakyMspVSd_
 goal： Keikai can help you build a spreadsheet-based app
 -->
 
-![]({{ site.baseurl }}/images/{{page.imgDir}}/560.png)
+![]({{ site.baseurl }}/images/{{page.imgDir}}/580FL.png)
 
 Dear all, 
 
-Keikai Spreadsheet is a modern & fast ajax web spreadsheet component that brings Excel functionalities into your web application. 
+The Keikai Spreadsheet is a modern & fast ajax web spreadsheet component that brings Excel functionalities into your web application.  
 
-Keikai 5.6.0 will come with more than 30 enhancements. We have enhanced our import compatibility and provided an easier way to trace formula precedents and dependents for both end-users and app developers. Developers can implement precedent and dependent trace features for the users while users can then identify data sources and check values easily.
+With more than 40 enhancements, the Keikai 5.8.0 will be released in 2 weeks and a Freshly is now ready for testing.
+(Note. Freshly versions are for testing only, not for production) 
 
 
-Other highlighted features & improvements include: 
+New features include: 
 
-* [KEIKAI-393] (https://tracker.zkoss.org/browse/KEIKAI-393) - provide a public API to get precedents and dependents of a formula
-* [KEIKAI-396] (https://tracker.zkoss.org/browse/KEIKAI-396) - provide a developer-friendly way to access a cell's precedents and dependents
-* [KEIKAI-397] (https://tracker.zkoss.org/browse/KEIKAI-397) - highlight the dependents / precedents of a cell
-* [KEIKAI-371] (https://tracker.zkoss.org/browse/KEIKAI-371) - fix the issue: page up and page down don't work as expected
-* [KEIKAI-377] (https://tracker.zkoss.org/browse/KEIKAI-377) - can render a sheet for ErrorEval.CIRCULAR_REF_ERROR
-* [KEIKAI-388] (https://tracker.zkoss.org/browse/KEIKAI-388) - fix the issue: can't parse 2 double quotes in a formula
-* [KEIKAI-389] (https://tracker.zkoss.org/browse/KEIKAI-389) - fix the issue: 2 double quotes cause an ArrayIndexOutOfBoundsException in a specific formula length
+* [KEIKAI-253] (https://tracker.zkoss.org/browse/KEIKAI-253) - Exported Excel file should keep sheet tab color
+* [KEIKAI-366] (https://tracker.zkoss.org/browse/KEIKAI-366) - A filter dropdown shows available items filtered by other enabled filters
+* [KEIKAI-372] (https://tracker.zkoss.org/browse/KEIKAI-372) - When focusing a cell, scroll the cell at the first row
+* [KEIKAI-401] (https://tracker.zkoss.org/browse/KEIKAI-401) - Sheet keeps the focus even after selecting another sheet
+* [KEIKAI-439] (https://tracker.zkoss.org/browse/KEIKAI-439) - support DATEDIF excel function
+* [KEIKAI-441] (https://tracker.zkoss.org/browse/KEIKAI-441) - Add a registration option in JAVA for user defined FreeRefFunction
+* [KEIKAI-444] (https://tracker.zkoss.org/browse/KEIKAI-444) - Display an empty cell according to each chart's option
+* [KEIKAI-453] (https://tracker.zkoss.org/browse/KEIKAI-453) - Supports Circular Reference for Iteration
+* [KEIKAI-454] (https://tracker.zkoss.org/browse/KEIKAI-454) - Exporter can throw more specific information when exporting fails
+* [KEIKAI-473] (https://tracker.zkoss.org/browse/KEIKAI-473) - Display a merged cell across frozen columns
+* [KEIKAI-489] (https://tracker.zkoss.org/browse/KEIKAI-489) - Import and export "Protect Workbook"
+* [KEIKAI-459] (https://tracker.zkoss.org/browse/KEIKAI-459) - Exporting massive formulas and named ranges takes a long time
+
+
+Improvements include: 
+
+* [KEIKAI-323] (https://tracker.zkoss.org/browse/KEIKAI-323) - Can't resize keikai with Clients.resize()
+* [KEIKAI-339] (https://tracker.zkoss.org/browse/KEIKAI-339) - render cells slowly after pasting lots of values
+* [KEIKAI-435] (https://tracker.zkoss.org/browse/KEIKAI-435) - change zoom level produces an unexpected scrollbar
+* [KEIKAI-438] (https://tracker.zkoss.org/browse/KEIKAI-438) - export a formula with an external reference incorrectly
+* [KEIKAI-445] (https://tracker.zkoss.org/browse/KEIKAI-445) - cannot render a plain text comment
+* [KEIKAI-447] (https://tracker.zkoss.org/browse/KEIKAI-447) - missing / cut off scrollbars in different browsers
+* [KEIKAI-455] (https://tracker.zkoss.org/browse/KEIKAI-455) - Fail to import xls saved by Excel 2016
+* [KEIKAI-456] (https://tracker.zkoss.org/browse/KEIKAI-456) - Missing right borders in the top frozen area
+* [KEIKAI-457] (https://tracker.zkoss.org/browse/KEIKAI-457) - evaluating IF() produces a NullPointerException
+* [KEIKAI-458] (https://tracker.zkoss.org/browse/KEIKAI-458) - font color filter doesn't work as expected
+* [KEIKAI-461] (https://tracker.zkoss.org/browse/KEIKAI-461) - an empty chart causes keikai to stop working
+* [KEIKAI-462] (https://tracker.zkoss.org/browse/KEIKAI-462) - improve the performance of formula dependent update
+* [KEIKAI-468] (https://tracker.zkoss.org/browse/KEIKAI-468) - loading a file produces a javascript error Index out of range
+* [KEIKAI-470] (https://tracker.zkoss.org/browse/KEIKAI-470) - change a percentage cell value but the value in the formula bar doesn't change accordingly
+* [KEIKAI-471] (https://tracker.zkoss.org/browse/KEIKAI-471) - IFERROR returns incorrect value when referencing a cell
+* [KEIKAI-472] (https://tracker.zkoss.org/browse/KEIKAI-472) - Clear Filter should be in disabled style when no criteria are selected
+* [KEIKAI-476] (https://tracker.zkoss.org/browse/KEIKAI-476) - ISNUMBER returns FALSE for non-number result
+* [KEIKAI-479] (https://tracker.zkoss.org/browse/KEIKAI-479) - SUMPRODUCT() in IF() doesn't return the expected result
+* [KEIKAI-484] (https://tracker.zkoss.org/browse/KEIKAI-484) - import shared formulas incorrectly
+* [KEIKAI-485] (https://tracker.zkoss.org/browse/KEIKAI-485) - a formula with nested colon operator causes a FormulaParseException
+* [KEIKAI-486] (https://tracker.zkoss.org/browse/KEIKAI-486) - export a hidden sheet as a visible sheet
+* [KEIKAI-487] (https://tracker.zkoss.org/browse/KEIKAI-487) - sheet protection password is lost after exporting
+* [KEIKAI-488] (https://tracker.zkoss.org/browse/KEIKAI-488) - row height changes after exporting
+* [KEIKAI-490] (https://tracker.zkoss.org/browse/KEIKAI-490) - "Empty" Chart object in sheet cause infinite loop at server-side, frozen page
+* [KEIKAI-491] (https://tracker.zkoss.org/browse/KEIKAI-491) - clear filter is not disabled
+* [KEIKAI-492] (https://tracker.zkoss.org/browse/KEIKAI-492) - rendering a chart throws null pointer exception
+* [KEIKAI-493] (https://tracker.zkoss.org/browse/KEIKAI-493) - Fail to filter by color on an ipad
+* [KEIKAI-495] (https://tracker.zkoss.org/browse/KEIKAI-495) - [demo: Excel Like] spreadsheet will break when insert/delete columns
+* [KEIKAI-497] (https://tracker.zkoss.org/browse/KEIKAI-497) - keikai-jsf calls a non-existed function size()
 
 
 We hope you find these enhancements useful to your project and highly recommend trying it out before official release.
