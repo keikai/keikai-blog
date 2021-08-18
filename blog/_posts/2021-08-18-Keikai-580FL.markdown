@@ -31,7 +31,9 @@ Dear all,
 The Keikai Spreadsheet is a modern & fast ajax web spreadsheet component that brings Excel functionalities into your web application.  
 
 With more than 40 enhancements, the Keikai 5.8.0 will be released in 2 weeks and a Freshly is now ready for testing.
-(Note. Freshly versions are for testing only, not for production) 
+
+Some highlight changes include adding a registration option for implementing custom functions, performance improvements when exporting massive formulas, adding DATEDIF() and circular reference, and enhacingexternal-referenced formulas. 
+ 
 
 
 New features include: 
@@ -85,7 +87,16 @@ Improvements include:
 
 We hope you find these enhancements useful to your project and highly recommend trying it out before official release.
 
-Sneak peek [**here**](https://mavensync.zkoss.org/eval/io/keikai/keikai-ex/) - specify latest version!
+While we have our own QA procedure before launching each Keikai release, each project may have different setup and different 3rd party libraries thus giving different result. So We strongly recommend you to test the freshly against your project. 
+
+If you noticed any side-effects, please let us know immediately for us to integrate required changes before releasing the official version!
+
+Access Freshly:
+
+Maven setup [**here**](https://doc.keikai.io/tutorial#evaluation) - with version string: 5.8.0.FL.20210816-Eval
+
+Sneak peek and download [**here**](https://mavensync.zkoss.org/eval/io/keikai/keikai-ex/) - specify latest version!
+
 
 Feel free to provide us with your feedback. If you are new to Keikai feel free to drop us a note at **info@keikai.io**.
 
