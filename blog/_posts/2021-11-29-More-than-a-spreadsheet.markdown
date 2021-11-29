@@ -39,7 +39,8 @@ With a traditional spreadsheet, we would try to fit this supplemental informatio
 ![]({{ site.baseurl }}/{{page.imgDir}}/lXDAcAD.gif)
 
 
-Read more to learn how you can slide in an HTML panel or pop up a window right on your sheet. Read more: <a href="https://keikai.io/blog/p/Give-your-classic-spreadsheet-a-modern-touch.html/" target="_blank">Give your classic spreadsheet a modern touch</a> 
+Read more to learn how you can slide in an HTML panel or pop up a window right on your sheet:
+<a href="https://keikai.io/blog/p/Give-your-classic-spreadsheet-a-modern-touch.html/" target="_blank">Give your classic spreadsheet a modern touch</a> 
 
 
 ## Bring in intuitive web input experience
