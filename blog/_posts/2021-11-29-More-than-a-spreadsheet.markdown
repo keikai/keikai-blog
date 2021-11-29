@@ -7,7 +7,7 @@ excerpt: “Keikai Spreadsheet - filling data automatically to your Excel templa
 
 index-intro: "Explore possibilties when leveraging the best of spreadsheet."
 
-image: "2021-11-more_than_spreadsheet/Spreadsheet is more than a spreadsheet.png"
+image: "2021-11-more_than_spreadsheet/more_than_spreadsheet.png"
 tags: tutorial
 author: "Stella Wu"
 authorImg: "/images/author/stellaw.png"
