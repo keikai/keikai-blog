@@ -69,6 +69,7 @@ Read more on: <a href="https://keikai.io/blog/p/visualize-spreadsheet-formula.ht
 
 Now, Keikai’s Java server reliance allows you to run java code on sheet events and implement efficient algorithms instead of using Excel’s built-in chaining functions. This means we can create efficient workflows that make full use of both the relations between cells in the sheet and the power of a full coding language. Read more: <a href="https://keikai.io/blog/p/budget-merge.html" target="_blank">Excel UI with Java flexibility: merging spreadsheet data in Keikai</a>.
 
+
 # Summary
 We hope these examples inspire you to think out of the box when leveraging the best of spreadsheets and the Web. Creativity is unlimited and Keikai is the shortcut! 
 
