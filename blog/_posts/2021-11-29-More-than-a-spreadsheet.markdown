@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Spreadsheet? More than a spreadshhet."
+title:  "Spreadsheet? More than a spreadsheet."
 date:   2021-11-29
-categories: "Application"
+categories: "Usecase"
 excerpt: “Keikai Spreadsheet - filling data automatically to your Excel templates.”
 
 index-intro: "Explore possibilties when leveraging the best of spreadsheet."
