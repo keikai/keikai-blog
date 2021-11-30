@@ -5,7 +5,7 @@ date:   2021-11-29
 categories: "Usecase"
 excerpt: “Keikai Spreadsheet - filling data automatically to your Excel templates.”
 
-index-intro: "Explore possibilties when leveraging the best of spreadsheet."
+index-intro: "Explore possibilities when leveraging the best of spreadsheet."
 
 image: "2021-11-more_than_spreadsheet/more_than_spreadsheet.png"
 tags: tutorial
