@@ -71,7 +71,7 @@ Now, Keikai’s Java server reliance allows you to run java code on sheet events
 
 
 # Summary
-We hope these examples inspire you to think out of the box when leveraging the best of spreadsheets and the Web. Creativity is unlimited and Keikai is the shortcut! 
+We hope these examples inspire you to think out of the box when leveraging the best of spreadsheets and the Web. Creativity is unlimited and Keikai is the shortcut!  
 
 
 
