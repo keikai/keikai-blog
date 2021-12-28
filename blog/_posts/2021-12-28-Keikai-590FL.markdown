@@ -75,7 +75,7 @@ If you noticed any side-effects, please let us know immediately for us to integr
 
 Access Freshly:
 
-Maven setup [**here**](https://doc.keikai.io/tutorial#evaluation) - use the latesting version string available: 5.9.0.fl.20211224-eval or later
+Maven setup [**here**](https://doc.keikai.io/tutorial#evaluation) - use the latesting version string available: 5.9.0.fl.20211224-eval, or later versions
 
 
 Feel free to provide us with your feedback. If you are new to Keikai feel free to drop us a note at **info@keikai.io**.
