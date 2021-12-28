@@ -1,0 +1,92 @@
+---
+layout: post
+title:  "Keikai 5.9.0FL Ready for Testing!"
+date:   2021-12-28
+categories: "News"
+excerpt: "Keikai Spreadsheet is designed for turning excel to web and building spreadsheet applications. The upcoming 5.9.0 contains more than 20 enhancements and the 5.9.0 FL now ready for testing."
+
+index-intro: "
+[Announcement] 5.9.0 FL Ready for Testing
+"
+image: "2021-12-Keikai_FL_invite/blog.png"
+tags: marketing
+author: "Stella Wu"
+authorImg: "/images/author/stellaw.png"
+authorDesc: "Marketing, Keikai."
+
+
+
+imgDir: "2021-12-Keikai_FL_invite/blog.png"
+javadoc: "http://keikai.io/javadoc/latest/"
+---
+<!--
+images come from https://drive.google.com/open?id=17EEz_BuTVsTSeAA3a8AakyMspVSd_OEb made with draw.io
+goal： Keikai can help you build a spreadsheet-based app
+-->
+
+![]({{ site.baseurl }}/images/{{page.imgDir}}/blog.png)
+
+Dear all, 
+
+The Keikai Spreadsheet is a modern & fast ajax web spreadsheet component that brings Excel functionalities into your web application.  
+
+With more than 20 enhancements, the Keikai 5.9.0 will be released in 2 weeks and a Freshly is now ready for testing.
+
+Highlighted changes include performance optimization and multiple enhancements on a cell's height/width auto-fitting.. 
+
+
+New features include: 
+
+* [KEIKAI-469] (https://tracker.zkoss.org/browse/KEIKAI-469) - Implement automin and automax for conditional formatting
+* [KEIKAI-530] (https://tracker.zkoss.org/browse/KEIKAI-530) - backspace key can clear the cell content
+* [KEIKAI-535] (https://tracker.zkoss.org/browse/KEIKAI-535) - support row height autofit
+
+
+Improvements include: 
+
+* [KEIKAI-534] (https://tracker.zkoss.org/browse/KEIKAI-534) - filter a frozen sheet produces some duplicate cells
+* [KEIKAI-529] (https://tracker.zkoss.org/browse/KEIKAI-529) - wrap text doesn't increase the row height for a long text
+* [KEIKAI-532] (https://tracker.zkoss.org/browse/KEIKAI-532) - creating spreadsheet in a modal window causes scrollbar not working
+* [KEIKAI-324] (https://tracker.zkoss.org/browse/KEIKAI-324) - sclass attribute doesn't work as designed
+* [KEIKAI-464] (https://tracker.zkoss.org/browse/KEIKAI-464) - Excel xml store DataValidation from other sheet in a different xml element, fails to load in keikai
+* [KEIKAI-466] (https://tracker.zkoss.org/browse/KEIKAI-466) - importing a named range with entire column range takes a long time
+* [KEIKAI-467] (https://tracker.zkoss.org/browse/KEIKAI-467) - Validation cause missing display when manually typing the same value already set in the cell
+* [KEIKAI-475] (https://tracker.zkoss.org/browse/KEIKAI-475) - INDEX() doesn't return #REF! when receiving a non-existed cell address
+* [KEIKAI-512] (https://tracker.zkoss.org/browse/KEIKAI-512) - the exported file with a table contains a format problem
+* [KEIKAI-513] (https://tracker.zkoss.org/browse/KEIKAI-513) - should not autofit a column with wrap text cells only
+* [KEIKAI-514] (https://tracker.zkoss.org/browse/KEIKAI-514) - should not autofit a column with merged cells
+* [KEIKAI-521] (https://tracker.zkoss.org/browse/KEIKAI-521) - a named range that references a large range consumes long evaluation time
+* [KEIKAI-536] (https://tracker.zkoss.org/browse/KEIKAI-536) - a cell having a formula with "wrap text" doesn't resize its row height
+* [KEIKAI-538] (https://tracker.zkoss.org/browse/KEIKAI-538) - dynamically filled cells with wrap text doesn't auto resize the row height
+* [KEIKAI-540] (https://tracker.zkoss.org/browse/KEIKAI-540) - can't parse dd/mm/yyyy in Italy locale with java 9 or above
+* [KEIKAI-542] (https://tracker.zkoss.org/browse/KEIKAI-542) - a cell with wrap text contains a formula doesn't resize its row height
+* [KEIKAI-543] (https://tracker.zkoss.org/browse/KEIKAI-543) - wrap text doesn't auto resize the row height when set max visible row
+* [KEIKAI-547] (https://tracker.zkoss.org/browse/KEIKAI-547) - inconsistent range error
+* [KEIKAI-552] (https://tracker.zkoss.org/browse/KEIKAI-552) - Press PageUp when focusing A1 should not scroll up
+* [KEIKAI-554] (https://tracker.zkoss.org/browse/KEIKAI-554) - AutoFit for width produces more space for more characters
+* [KEIKAI-519] (https://tracker.zkoss.org/browse/KEIKAI-519) - unclear parse error message
+
+
+We hope you find these enhancements useful to your project and highly recommend trying it out before official release.
+
+While we have our own QA procedure before launching each Keikai release, each project may have different setup and different 3rd party libraries thus giving different result. So We strongly recommend you to test the freshly against your project. 
+
+If you noticed any side-effects, please let us know immediately for us to integrate required changes before releasing the official version!
+
+Access Freshly:
+
+Maven setup [**here**](https://doc.keikai.io/tutorial#evaluation) - use the latesting version string available: 5.9.0.fl.20211224-eval or later
+
+
+Feel free to provide us with your feedback. If you are new to Keikai feel free to drop us a note at **info@keikai.io**.
+
+
+
+
+
+
+
+
+[jekyll]:      http://jekyllrb.com
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-help]: https://github.com/jekyll/jekyll-help
