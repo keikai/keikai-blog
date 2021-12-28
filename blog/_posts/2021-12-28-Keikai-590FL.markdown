@@ -28,11 +28,11 @@ goal： Keikai can help you build a spreadsheet-based app
 
 Dear all, 
 
-The Keikai Spreadsheet is a modern & fast ajax web spreadsheet component that brings Excel functionalities into your web application.  
+Keikai Spreadsheet is a modern & fast ajax web spreadsheet component that brings Excel functionalities into your web application.  
 
-With more than 20 enhancements, the Keikai 5.9.0 will be released in 2 weeks and a Freshly is now ready for testing.
+With more than 20 enhancements, the Keikai 5.9.0 will be released soon and a Freshly is now ready for testing.
 
-Highlighted changes include performance optimization and multiple enhancements on a cell's height/width auto-fitting.. 
+Highlighted changes include performance optimization and multiple enhancements on a cell's height/width auto-fitting. 
 
 
 New features include: 
@@ -67,15 +67,14 @@ Improvements include:
 * [KEIKAI-519] (https://tracker.zkoss.org/browse/KEIKAI-519) - unclear parse error message
 
 
-We hope you find these enhancements useful to your project and highly recommend trying it out before official release.
-
-While we have our own QA procedure before launching each Keikai release, each project may have different setup and different 3rd party libraries thus giving different result. So We strongly recommend you to test the freshly against your project. 
+We hope you find these enhancements useful to your project. 
+While we have our own QA procedure before launching each Keikai release, each project may have different setup and different 3rd party libraries thus giving different result. So We strongly recommend you to test the freshly against your project before the official release. 
 
 If you noticed any side-effects, please let us know immediately for us to integrate required changes before releasing the official version!
 
 Access Freshly:
 
-Maven setup [**here**](https://doc.keikai.io/tutorial#evaluation) - use the latesting version string available: 5.9.0.fl.20211224-eval, or later versions
+Maven setup [**here**](https://doc.keikai.io/tutorial#evaluation) - use the latesting version string available: 5.9.0.FL.20211224-Eval, or later versions
 
 
 Feel free to provide us with your feedback. If you are new to Keikai feel free to drop us a note at **info@keikai.io**.
