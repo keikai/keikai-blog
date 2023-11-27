@@ -1,20 +1,20 @@
 ---
 layout: post
-title:  "Unlocking Efficiency: Keikai 6 - Now with Grouping, Syntax Highlighting, and Formula Autocomplete"
+title:  "Keikai 6 Now with Grouping, Highlighting, and Autocompletion"
 date:   2023-11-29
 categories: "Intro"
 excerpt: “Keikai 6 bringing Grouping, Syntax Highlighting and Formula Autocomplete”
 
-index-intro: "Explore possibilities when leveraging the best of spreadsheet."
+index-intro: "Explore exciting Keikai 6 new features: Grouping, Syntax Highlighting and Formula Autocomplete"
 
-image: "2021-11-more_than_spreadsheet/more_than_spreadsheet.png"
+image: "2023-11-Unlocking_Efficiency_Keikai6/Keikai-6-beta.png"
 tags: tutorial
 author: "Rebecca Lai"
 authorImg: "/images/author/stellaw.png"
 authorDesc: "RD, Keikai."
 
 
-imgDir: "/images/2021-11-more_than_spreadsheet"
+imgDir: "/images/2023-11-Unlocking_Efficiency_Keikai6"
 javadoc: "https://keikai.io/javadoc/6.0.0/"
 ---
 <!--
