@@ -42,7 +42,7 @@ Have you ever felt overwhelmed by complex spreadsheets? This is when row and col
 
 Once created, each group is automatically equipped with UI controls, providing an intuitive way for users to collapse and expand groups while navigating spreadsheets.
 
-![]({{ site.baseurl }}/{{page.imgDir}}/grouping.mov)
+![]({{ site.baseurl }}/{{page.imgDir}}/grouping.mp4)
 
 
 Additionally, the feature is fully compatible with Excel groups, making it seamless to import Excel spreadsheets with groups into Keikai.
