@@ -42,6 +42,7 @@ Have you ever felt overwhelmed by complex spreadsheets? This is when row and col
 
 Once created, each group is automatically equipped with UI controls, providing an intuitive way for users to collapse and expand groups while navigating spreadsheets.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nonTIguL7ls?si=jxpRAEJTs7b3J83o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 ![]({{ site.baseurl }}/{{page.imgDir}}/grouping.mp4)
 
 
