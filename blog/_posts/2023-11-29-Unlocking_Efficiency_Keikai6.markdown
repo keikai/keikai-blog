@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Keikai 6 Now with Grouping, Highlighting, and Autocompletion"
+title:  "Keikai 6 Coming Soon with Grouping, Highlighting, and Autocompletion"
 date:   2023-11-29
 categories: "Intro"
 excerpt: “Keikai 6 bringing Grouping, Syntax Highlighting and Formula Autocomplete”
 
-index-intro: "Explore exciting Keikai 6 new features: Grouping, Syntax Highlighting and Formula Autocomplete"
+index-intro: "Explore upcoming Keikai 6 new features: Grouping, Syntax Highlighting and Formula Autocomplete"
 
 image: "2023-11-Unlocking_Efficiency_Keikai6/Keikai-6-beta.png"
 tags: tutorial
@@ -21,7 +21,7 @@ javadoc: "https://keikai.io/javadoc/6.0.0/"
 images come from https://drive.google.com/open?id=17EEz_BuTVsTSeAA3a8AakyMspVSd_OEb made with draw.io
 -->
 
-Keikai spreadsheet is a fast and modern ajax web spreadsheet component that brings Excel functionalities into your web applications. We are excited to share that Keikai 6.0.0-Beta, coming with a new set of enhancements to elevate your spreadsheet experience, is now available. In this blog post, we will explore three of its key features.
+Keikai spreadsheet is a fast and modern ajax web spreadsheet component that brings Excel functionalities into your web applications. We are excited to share that Keikai 6.0.0-Beta, coming with a new set of enhancements to elevate your spreadsheet experience, will be available very soon. In this blog post, we will explore three of its key features.
 
 
 ## Row & Column Grouping
