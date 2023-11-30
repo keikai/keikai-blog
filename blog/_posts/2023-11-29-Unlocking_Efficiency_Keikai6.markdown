@@ -10,7 +10,7 @@ index-intro: "Explore exciting Keikai 6 new features: Grouping, Syntax Highlight
 image: "2023-11-Unlocking_Efficiency_Keikai6/Keikai-6-beta.png"
 tags: tutorial
 author: "Rebecca Lai"
-authorImg: "/images/author/stellaw.png"
+authorImg: "/images/author/rebecca.jpg"
 authorDesc: "RD, Keikai."
 
 
@@ -60,9 +60,8 @@ Once created, each group is automatically equipped with UI controls, providing a
 }
 </style>
 <div class="videowrapper">
-<iframe src="https://www.youtube.com/embed/nonTIguL7ls?si=jxpRAEJTs7b3J83o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/9vERtnUg6fg?si=krFygwsfKggPXDYQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
-![]({{ site.baseurl }}/{{page.imgDir}}/grouping.mp4)
 
 
 Additionally, the feature is fully compatible with Excel groups, making it seamless to import Excel spreadsheets with groups into Keikai.
@@ -72,14 +71,18 @@ Additionally, the feature is fully compatible with Excel groups, making it seaml
 
 Now that we have successfully simplified complex spreadsheets with row and column groups, let’s move on to tackle complex formulas, which can be equally daunting. With our syntax highlighting, the different parts of a formula can be easily differentiated at a glance, significantly improving its readability. On top of that, the simultaneous highlighting of the cells and ranges referenced in the editing formula also enables users to visualize the relationships between cells.
 
-![]({{ site.baseurl }}/{{page.imgDir}}/highlighting.mov)
+<div class="videowrapper">
+<iframe src="https://www.youtube.com/embed/eDFGhSttzmk?si=Vh8j1v4tLVFua01S" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 
 ## Formula Autocomplete & Argument Hints
 
 Finally, with an extra 55 built-in functions added in 6.0.0-Beta, we developed the formula autocomplete and augment hints to help exploit the full potential of our extensive function collection. Simply begin typing a formula into a cell or the formula bar, the UI will dynamically generate a drop-down list of matching functions, in which you can easily insert your desired function with a mouse click or arrow keys followed by the tab key. After inserting a function, a tooltip will automatically display its list of required and optional arguments to guide you through the formula editing process. 
 
-![]({{ site.baseurl }}/{{page.imgDir}}/autocompleting.mov)
+<div class="videowrapper">
+<iframe src="https://www.youtube.com/embed/3xq6AZ_LYus?si=irN8zonrDCCuBhb0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 # Summary
 We hope your projects can benefit from the three features above along with the other 6.0.0-Beta enhancements. We would love to hear from you, so feel free to share your feedback with us!
