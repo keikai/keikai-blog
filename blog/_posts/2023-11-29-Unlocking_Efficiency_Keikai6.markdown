@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Keikai 6 Coming Soon with Grouping, Highlighting, and Autocompletion"
-date:   2023-11-29
+date:   2023-12-4
 categories: "Intro"
 excerpt: “Keikai 6 bringing Grouping, Syntax Highlighting and Formula Autocomplete”
 
@@ -85,7 +85,7 @@ Finally, with an extra 55 built-in functions added in 6.0.0-Beta, we developed t
 </div>
 
 # Summary
-We hope your projects can benefit from the three features above along with the other 6.0.0-Beta enhancements. We would love to hear from you, so feel free to share your feedback with us!
+We hope your projects can benefit from the three features above along with the other 6.0.0-Beta enhancements. We would love to hear from you, so feel free to share your feedback with us at info@keikai.io!
 
 
 
