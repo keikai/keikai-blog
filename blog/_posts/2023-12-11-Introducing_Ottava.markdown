@@ -7,7 +7,7 @@ excerpt: “Introducing Ottava no-code data analysis platform”
 
 index-intro: "Introducing Ottava, a no-code SaaS data analysis platform from Potix"
 
-image: "2023-12-Introducing_Ottava/ottava.png"
+image: "2023-12-Introducing_Ottava/ottava1.png"
 tags: intro
 author: "Jean Yen"
 authorImg: "/images/author/jean.jpg"
@@ -20,7 +20,7 @@ javadoc: "https://keikai.io/javadoc/6.0.0/"
 <!--
 images come from https://drive.google.com/open?id=17EEz_BuTVsTSeAA3a8AakyMspVSd_OEb made with draw.io
 -->
-We are thrilled to share exciting news from our peer developers at Potix Corporation – the Official Launch of Ottava, our cutting-edge data management and analysis platform.
+We are thrilled to share exciting news from our peer developers at Potix Corporation – the Official Launch of <a href="https://ottava.io?utm_source=kk&utm_medium=blog&utm_campaign=launch" target="_blank">Ottava</a>, our cutting-edge data management and analysis platform.
 
 Over the past two years, our team has been diligently working on Ottava, inspired by the feedback and insights from our vibrant community, especially our '''Keikai Spreadsheet users'''. Recognizing the challenges faced by non-technical users in efficiently sharing spreadsheet templates and visualizing complex data, Ottava was conceived to address these pain points head-on.
 
@@ -38,6 +38,7 @@ Ottava empowers you to intuitively input and analyze aggregated or pivoted table
 Ottava seamlessly combines our expertise in Web development (ZK), Spreadsheet technology (Keikai), and SaaS solutions (Quire). This platform simplifies data management, chart creation, and analysis, bridging the gap between user requirements and complex data tools. We invite you to explore Ottava firsthand and share your invaluable feedback.
 
 Get started at <a href="https://ottava.io?utm_source=kk&utm_medium=blog&utm_campaign=launch" target="_blank">ottava.io</a>
+
 Learn more about <a href="https://blog.ottava.io/p/why-ottava.html?utm_source=kk&utm_medium=blog&utm_campaign=launch" target="_blank">Why we created Ottava</a>.
 
 If you have questions or feedback or would like to schedule a personalized demo, feel free to reach us at feedback@ottava.io.
