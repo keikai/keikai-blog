@@ -7,7 +7,7 @@ categories: "Stories"
 
 index-intro: "Explain the differences between tabular and aggregated data and explore Ottava's innovative approach to analyzing pivoted data directly."
 category-intro: "Explain the differences between tabular and pivoted data and explore Ottava's innovative approach to analyzing aggregated data directly."
-image: "2024-1/pivot-challenge-cover.png"
+image: "2024-1/pivot-challenge-cover.jpg"
 tags: pivot, pivot table, excel pivot table, pivot table in Excel, unpivot, data analysis, pivot charts
 author: "Jean Yen"
 authorImg: "/images/author/jean.png"
@@ -16,23 +16,23 @@ authorImg: "/images/author/jean.png"
 imgDir: "2024-1"
 ---
 
-![]({{ site.baseurl }}/images/{{page.imgDir}}/pivot-challenge-cover.png)
+![a pivot table]({{ site.baseurl }}/images/{{page.imgDir}}/pivot-challenge-cover.jpg)
 
 My mom is a school teacher; one day, she showed me the class grades and asked me how she could re-arrange them to see how students were doing across Q1 and Q2 and find out which students were falling behind on any specific subject.
 
-![]({{ site.baseurl }}/images/{{page.imgDir}}/report-card.png)
+![a grade book table]({{ site.baseurl }}/images/{{page.imgDir}}/report-card.png)
 
 Easy peasy." I was more than confident. Pivot tables and pivot charts are for slice and dice; I immediately thought about using them. I am not an expert, but I've used Excel pivot table at work a few times. I opened up my laptop and input the grade data, starting to drag the pivot table. 
 
 “Hum,” I noticed I could only drag the subjects into the columns and rows. I could not drag students’ names. And when I selected the ELA (Q1) and ELA (Q2), the charts didn’t look the way I expected.
 
-![]({{ site.baseurl }}/images/{{page.imgDir}}/pivot1.png)
+![an Excel pivot table]({{ site.baseurl }}/images/{{page.imgDir}}/pivot1.png)
 
 Not what I want. I couldn’t compare the scores of each student between Q1 and Q2.
 
 I switched the rows and columns and tweaked them here and there. No luck.
 
-![]({{ site.baseurl }}/images/{{page.imgDir}}/pivot2.png)
+![an Excel pivot table]({{ site.baseurl }}/images/{{page.imgDir}}/pivot2.png)
 
 It is not giving me the data I wanted; no average score for each student, and I couldn’t compare the scores of a specific subject.
 
@@ -40,19 +40,17 @@ It is not giving me the data I wanted; no average score for each student, and I 
 
 Tabular data, what exactly is it? 
 
-![]({{ site.baseurl }}/images/{{page.imgDir}}/tabluar-vs-pivoted.png)
-
-caption of the image: Example of Tabular data vs. Pivoted(aggregated) data
+![comparing tabular and pivoted data]({{ site.baseurl }}/images/{{page.imgDir}}/tabluar-vs-pivoted.png "Example of Tabular data vs. Pivoted(aggregated) data")
 
 Tabular data (left) has a row header indicating the meaning of each column, followed by rows of data, either text or numbers. It is well-structured and can be easily filtered, sorted and analyzed. 
 
-On the other hand, the grade book I have (right) is pivoted or aggregated data - it has one or more row headers, one or more column headers, and many numbers in the main grid. In most cases, this format is more readable for human.
-
-I've tried to use other popular spreadsheet apps like Tableau, and they all have the same requirement - you have to unpivot or shape your data in tabular format before you can even start to analyze them. In Excel, this unpivot process is normally done with advanced tools like Power Query; unpivot can also be done using Python or other advanced platforms.
+On the other hand, the grade book I have (right) is pivoted or aggregated data - it has one or more row headers, one or more column headers, and many numbers in the main grid. In most cases, it looks like a summarized report.
 
 /* ==Further Reading Banner: Pivot and Unpivot */
 
-How inconvenient! 
+I've tried to use other popular spreadsheet apps like Tableau, and they all have the same requirement - you have to unpivot or shape your data in tabular format before you can even start to analyze them. In Excel, this unpivot process is normally done with advanced tools like Power Query. Unpivot can also be done using Python or other advanced platforms.
+
+**How inconvenient!**
 Wouldn't it be great if we could explore the grade book directly without having to convert it back to the tabular data?
 
 That’s where the Ottava approach comes in to change the game.
