@@ -33,6 +33,7 @@ The term "pivot" conveys the act of turning or rotating. In Excel, pivoting invo
 
 ## When Should You Use a Pivot Table:
 Optimal Use Cases:
+
 1. Large Datasets: Pivot Tables are invaluable when dealing with extensive datasets, making it easier to distill relevant information.
 2. Data Summarization: When you need to summarize and aggregate data to understand trends, patterns, or outliers.
 3. Comparative Analysis: For comparing data across different categories or dimensions.
@@ -40,6 +41,7 @@ Optimal Use Cases:
 
 ## Creating a Pivot Table in Excel:
 Pivot Table Basics:
+
 1. Open Excel and ensure your dataset is organized with clear headers.
 2. Select any cell in the dataset.
 3. Navigate to the "Insert" tab and click on "PivotTable."
@@ -49,6 +51,7 @@ Pivot Table Basics:
 
 ### Excel Pivot Table Date Grouping:
 Date Grouping is one of the most commonly used features in Excel pivot. To group dates in a Pivot Table:
+
 1. Right-click on a date field in the Pivot Table.
 2. Choose "Group."
 3. Specify the desired date grouping (days, months, years).
