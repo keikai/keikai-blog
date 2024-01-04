@@ -65,11 +65,13 @@ Date Grouping is one of the most commonly used features in Excel pivot. To group
 
 ## Updating and Modifying Pivot Tables:
 How to Add Data to a Pivot Table in Excel:
+
 1. Ensure your new data has the same structure as the existing dataset.
 2. Right-click on the Pivot Table.
 3. Select "Refresh" to update the table with the new data.
 
 ## Unpivoting Data in Excel:
+
 1. Highlight the Pivot Table.
 2. Go to the "Design" tab.
 3. Click on "Convert to Range" to revert the Pivot Table to a regular range.
