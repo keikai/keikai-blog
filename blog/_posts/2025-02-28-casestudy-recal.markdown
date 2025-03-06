@@ -8,7 +8,7 @@ excerpt: "Learn how Keikai helps ReCAL to streamline their loan processing."
 index-intro: "
 Learn how Keikai helps ReCAL to streamline their loan processing.
 "
-image: "2025-02-ReCAL/Keikai_ReCAL_cover.png"
+image: "2025-02-ReCAL/Keikai-ReCAL-cover.png"
 tags: marketing
 author: "Jean Yen"
 authorImg: "/images/author/jean.jpg"
