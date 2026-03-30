@@ -37,6 +37,7 @@ Highlights:
  * **Enhanced Security**: Updated third-party dependencies to eliminate known vulnerabilities (KEIKAI-856).
 
 Access The Freshly:
+
  * Maven setup: https://doc.keikai.io/tutorial#evaluation (evaluation repository)
  * version string: please specify the version as *6.3.0-jakarta.FL.20260330-Eval* or *6.3.0.FL.20260330-Eval*.
 
