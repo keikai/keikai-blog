@@ -6,7 +6,7 @@ categories: "News"
 excerpt: "Keikai 6.3.0 Release Candidate Now Available with 100+ New Formulas, Enhanced Security, and Customizable UI Behavior."
 
 index-intro: "
-[Announcement] 6.3.0 FL Ready for Testing
+[Announcement] 6.3.0 will bring 100+ new formulas, enhanced security, and more
 "
 image: "2026-03-Keikai_FL/630FL.png"
 tags: marketing
@@ -30,14 +30,15 @@ We are pleased to inform you that Keikai 6.3.0 will be available soon, and a rel
 In this version, we have significantly expanded our formula support, specifically focusing on newer functions found in recent Excel editions and Office 365. Additionally, we have updated Apache POI and other third-party dependencies to ensure optimal performance and the highest security standards.
 
 Highlights:
-- **100+ New Formulas**: Added support for over 100 formulas across statistical, engineering, financial, and other categories ([KEIKAI-869](https://zkoss.atlassian.net/browse/KEIKAI-869), 849, 865, 866).
-- **POI 5.5.1 Upgrade**: Updated Apache POI to version 5.5.1 to ensure the latest library support (KEIKAI-857).
-- **Configurable Dropdowns**: Added a setting to choose whether dropdowns remain open or close during page scrolls (KEIKAI-854).
-- **Enhanced Security**: Updated third-party dependencies to eliminate known vulnerabilities (KEIKAI-856).
+
+ * **100+ New Formulas**: Added support for over 100 formulas across statistical, engineering, financial, and other categories ([KEIKAI-869](https://zkoss.atlassian.net/browse/KEIKAI-869), 849, 865, 866).
+ * **POI 5.5.1 Upgrade**: Updated Apache POI to version 5.5.1 to ensure the latest library support (KEIKAI-857).
+ * **Configurable Dropdowns**: Added a setting to choose whether dropdowns remain open or close during page scrolls (KEIKAI-854).
+ * **Enhanced Security**: Updated third-party dependencies to eliminate known vulnerabilities (KEIKAI-856).
 
 Access The Freshly:
-- Maven setup: https://doc.keikai.io/tutorial#evaluation (evaluation repository)
-- version string: please specify the version as *6.3.0-jakarta.FL.20260330-Eval* or *6.3.0.FL.20260330-Eval*.
+ * Maven setup: https://doc.keikai.io/tutorial#evaluation (evaluation repository)
+ * version string: please specify the version as *6.3.0-jakarta.FL.20260330-Eval* or *6.3.0.FL.20260330-Eval*.
 
 (Note. Freshly versions are for testing only and are available in the evaluation repositories only, not for production)
 
