@@ -38,16 +38,17 @@ Highlights:
  * **Enhanced Security**: Updated third-party dependencies to eliminate known vulnerabilities (KEIKAI-856).
 
 Release notes:
+ 
  * 9 New Features and 10 bug fixes are included in this version. [Release Notes](https://keikai.io/releasenotes)
 
 Downloads:
 
- * Evaluation setup: https://doc.keikai.io/tutorial#evaluation (evaluation repository) - version string: please specify the version as *6.3.0-jakarta-Eval* or *6.3.0-Eval*.
+ * Evaluation setup: https://doc.keikai.io/tutorial#evaluation (evaluation repository) - version string: please specify the version as *6.3.0-jakarta-Eval* or *6.3.0-Eval*. Or, download the trial bin/app from the [Download Page](https://keikai.io/download).
  * Customer (Official) Download: please use the EE maven repository and specify the version as *6.3.0-jakarta* or *6.3.0*, or download from the binary folder.
  
-## Keikai 5.14.0 - the legacy branch
+## Keikai 5.14.0 - security updates
 This version contains 5 security improvements for the 5.x branch. These updates primarily involve third-party dependency updates to eliminate known vulnerabilities.
-If you have not yet upgraded to Keikai 6, we strongly recommend updating to 5.14.0 for the best security. For details, please refer to the to the [Release Notes](https://keikai.io/releasenotes)
+If you have not yet upgraded to Keikai 6, we strongly recommend updating to 5.14.0 for the best security. For details, please refer to the to the [Release Notes](https://keikai.io/releasenotes).
 
 We hope these new versions benefit your projects. 
 Happy Coding!
