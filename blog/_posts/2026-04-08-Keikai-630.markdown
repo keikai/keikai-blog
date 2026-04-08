@@ -1,0 +1,58 @@
+---
+layout: post
+title:  "Keikai 6.3.0 & 5.14.0 Released!"
+date:   2026-04-08
+categories: "News"
+excerpt: "Keikai 6.3.0 Now Available with 100+ New Formulas, Enhanced Security, and Customizable UI Behavior."
+
+index-intro: "
+[Announcement] 6.3.0 brings 100+ new formulas, enhanced security, and more
+"
+image: "2026-04-Keikai630/630.png"
+tags: marketing
+author: "Jean Yen"
+authorImg: "/images/author/jean.jpg"
+authorDesc: "Marketing, Keikai."
+
+
+imgDir: "2026-04-Keikai630"
+javadoc: "http://keikai.io/javadoc/latest/"
+---
+<!--
+images come from https://drive.google.com/open?id=17EEz_BuTVsTSeAA3a8AakyMspVSd_OEb made with draw.io
+goal： Keikai can help you build a spreadsheet-based app
+-->
+
+![]({{ site.baseurl }}/images/{{page.imgDir}}/blog.png)
+
+We are pleased to inform you that Keikai 6.3.0 & Keikai 5.14.0 have been officially released!
+
+## Keikai 6.3.0 - the latest stable
+In this version, we have significantly expanded our formula support, specifically focusing on newer functions found in recent Excel editions and Office 365. Additionally, we have updated Apache POI and other third-party dependencies to ensure optimal performance and the highest security standards.
+
+Highlights:
+
+ * **100+ New Formulas**: Added support for over 100 formulas across statistical, engineering, financial, and other categories ([KEIKAI-869](https://zkoss.atlassian.net/browse/KEIKAI-869), 849, 865, 866).
+ * **POI 5.5.1 Upgrade**: Updated Apache POI to version 5.5.1 to ensure the latest library support (KEIKAI-857).
+ * **Configurable Dropdowns**: Added a setting to choose whether dropdowns remain open or close during page scrolls (KEIKAI-854).
+ * **Enhanced Security**: Updated third-party dependencies to eliminate known vulnerabilities (KEIKAI-856).
+
+Release notes:
+ * 9 New Features and 10 bug fixes are included in this version. [Release Notes](https://keikai.io/releasenotes)
+
+Downloads:
+
+ * Evaluation setup: https://doc.keikai.io/tutorial#evaluation (evaluation repository) - version string: please specify the version as *6.3.0-jakarta-Eval* or *6.3.0-Eval*.
+ * Customer (Official) Download: please use the EE maven repository and specify the version as *6.3.0-jakarta* or *6.3.0*, or download from the binary folder.
+ 
+## Keikai 5.14.0 - the legacy branch
+This version contains 5 security improvements for the 5.x branch. These updates primarily involve third-party dependency updates to eliminate known vulnerabilities.
+If you have not yet upgraded to Keikai 6, we strongly recommend updating to 5.14.0 for the best security. For details, please refer to the to the [Release Notes](https://keikai.io/releasenotes)
+
+We hope these new versions benefit your projects. 
+Happy Coding!
+
+
+[jekyll]:      http://jekyllrb.com
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-help]: https://github.com/jekyll/jekyll-help
