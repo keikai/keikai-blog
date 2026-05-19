@@ -34,7 +34,7 @@ The mental model is: **developer-controlled data + user interaction with that da
 
 A spreadsheet component is a UI library that replicates the experience of working in Excel or Google Sheets inside your application. In addition to displaying rows and columns, it provides a formula engine, cell-level formatting, multiple sheets (tabs), charts, named ranges, and high-fidelity import/export of `.xlsx` files.
 
-Examples include Keikai, SpreadJS, Univer, and Luckysheet.
+Examples include Keikai, SpreadJS, and Univer.
 
 The mental model is: **end users do their own computation, modeling, and analysis inside your application, the way they would in Excel**.
 
