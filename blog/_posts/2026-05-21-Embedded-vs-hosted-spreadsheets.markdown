@@ -8,7 +8,7 @@ excerpt: "Keikai vs Google Sheets and Microsoft 365: Embedded Component or Hoste
 index-intro: "
 Keikai vs Google Sheets and Microsoft 365: Embedded Component or Hosted Service?
 "
-image: ""
+image: "2026-05-embedded_hosted/embedded-vs-hosted-sheets-banner.png"
 tags: guide spreadsheet embedded hosted
 author: "Jean Yen"
 authorImg: "/images/author/jean.jpg"
