@@ -6,7 +6,8 @@
       "PowerShell(grep *)",
       "PowerShell(\\(ls \"C:\\\\Users\\\\home1\\\\Downloads\\\\website\\\\keikai\\\\keikai-blog\\\\blog\\\\images\" -Directory\\).Count)",
       "PowerShell(head *)",
-      "PowerShell(\\(ls \"C:\\\\Users\\\\home1\\\\Downloads\\\\website\\\\keikai\\\\keikai-blog\\\\blog\\\\images\" -Directory\\) | Select-Object -First 30)"
+      "PowerShell(\\(ls \"C:\\\\Users\\\\home1\\\\Downloads\\\\website\\\\keikai\\\\keikai-blog\\\\blog\\\\images\" -Directory\\) | Select-Object -First 30)",
+      "Bash(dir C:\\\\Users\\\\home1\\\\Downloads\\\\website\\\\keikai\\\\keikai-blog *)"
     ]
   }
 }
