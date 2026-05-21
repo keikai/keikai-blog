@@ -14,7 +14,7 @@ author: "Jean Yen"
 authorImg: "/images/author/jean.jpg"
 authorDesc: "Marketing, Keikai."
 
-imgDir: "2026-05-embedded-hosted"
+imgDir: "2026-05-embedded_hosted"
 javadoc: "http://keikai.io/javadoc/latest/"
 ---
 ![]({{ site.baseurl }}/images/{{page.imgDir}}/embedded-vs-hosted-sheets-banner.png)
