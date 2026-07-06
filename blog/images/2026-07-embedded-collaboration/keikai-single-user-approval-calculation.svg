@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" font-family="'Segoe UI', system-ui, sans-serif">
+  <rect width="800" height="450" fill="#f7f9fc"/>
+  <text x="400" y="40" text-anchor="middle" font-size="22" font-weight="700" fill="#1a2233">Single user: review, adjust one cell, sign off</text>
+
+  <!-- workbook panel -->
+  <rect x="120" y="78" width="560" height="248" rx="12" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+  <rect x="120" y="78" width="560" height="32" rx="12" fill="#217346"/>
+  <rect x="120" y="96" width="560" height="14" fill="#217346"/>
+  <text x="400" y="100" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">Approval — figures your app populated</text>
+
+  <!-- column labels -->
+  <g fill="#5b6472" font-size="12" text-anchor="middle">
+    <text x="190" y="134">A</text><text x="290" y="134">B</text>
+    <text x="390" y="134">C</text><text x="490" y="134">D</text><text x="590" y="134">E</text>
+  </g>
+
+  <!-- locked read-only summary tint (A–D) -->
+  <rect x="140" y="144" width="400" height="162" fill="#217346" opacity="0.07"/>
+
+  <!-- grid -->
+  <g stroke="#d0d7de" stroke-width="1">
+    <line x1="140" y1="144" x2="640" y2="144"/>
+    <line x1="140" y1="180" x2="640" y2="180"/>
+    <line x1="140" y1="216" x2="640" y2="216"/>
+    <line x1="140" y1="252" x2="640" y2="252"/>
+    <line x1="140" y1="288" x2="640" y2="288"/>
+    <line x1="240" y1="144" x2="240" y2="306"/>
+    <line x1="340" y1="144" x2="340" y2="306"/>
+    <line x1="440" y1="144" x2="440" y2="306"/>
+    <line x1="540" y1="144" x2="540" y2="306"/>
+  </g>
+
+  <!-- padlocks in locked area -->
+  <g transform="translate(283,158)">
+    <rect x="0" y="5" width="12" height="10" rx="2" fill="#217346"/>
+    <path d="M2 5 v-2 a4 4 0 0 1 8 0 v2" fill="none" stroke="#217346" stroke-width="2"/>
+  </g>
+  <g transform="translate(383,230)">
+    <rect x="0" y="5" width="12" height="10" rx="2" fill="#217346"/>
+    <path d="M2 5 v-2 a4 4 0 0 1 8 0 v2" fill="none" stroke="#217346" stroke-width="2"/>
+  </g>
+
+  <!-- editable decision cell (E) -->
+  <rect x="540" y="180" width="100" height="36" fill="#ffffff" stroke="#1f6feb" stroke-width="2.5"/>
+  <line x1="590" y1="188" x2="590" y2="208" stroke="#1f6feb" stroke-width="1.5"/>
+  <text x="590" y="172" text-anchor="middle" font-size="10" font-weight="700" fill="#1f6feb">editable</text>
+
+  <!-- annotations -->
+  <rect x="140" y="338" width="12" height="12" fill="#217346" opacity="0.25"/>
+  <text x="158" y="348" font-size="12" fill="#5b6472">locked read-only summary</text>
+  <text x="640" y="348" text-anchor="end" font-size="12" fill="#1f6feb">only the decision cell is editable</text>
+
+  <!-- role + actions -->
+  <rect x="140" y="362" width="196" height="28" rx="14" fill="#ffffff" stroke="#1f6feb" stroke-width="1.5"/>
+  <circle cx="158" cy="376" r="7" fill="#1f6feb"/>
+  <path d="M154 376 l3 3 l6 -7" fill="none" stroke="#ffffff" stroke-width="2"/>
+  <text x="172" y="380" font-size="12" fill="#1a2233">Role: Approver &#183; your auth</text>
+  <rect x="470" y="362" width="90" height="28" rx="14" fill="#217346"/>
+  <text x="515" y="381" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">Approve</text>
+  <rect x="570" y="362" width="90" height="28" rx="14" fill="#ffffff" stroke="#d0d7de" stroke-width="1.5"/>
+  <text x="615" y="381" text-anchor="middle" font-size="12" font-weight="600" fill="#5b6472">Reject</text>
+</svg>

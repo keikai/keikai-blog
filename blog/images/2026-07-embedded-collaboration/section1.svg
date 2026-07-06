@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" font-family="'Segoe UI', system-ui, sans-serif">
+  <rect width="800" height="450" fill="#f7f9fc"/>
+  <text x="400" y="42" text-anchor="middle" font-size="22" font-weight="700" fill="#1a2233">One source of truth, not one copy per inbox</text>
+
+  <!-- Central server-hosted workbook -->
+  <g>
+    <rect x="320" y="170" width="160" height="120" rx="12" fill="#ffffff" stroke="#1f6feb" stroke-width="3"/>
+    <rect x="320" y="170" width="160" height="30" rx="12" fill="#217346"/>
+    <rect x="320" y="188" width="160" height="12" fill="#217346"/>
+    <text x="400" y="191" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">Server-hosted Book</text>
+    <!-- mini grid -->
+    <g stroke="#d0d7de" stroke-width="1">
+      <line x1="340" y1="220" x2="460" y2="220"/>
+      <line x1="340" y1="245" x2="460" y2="245"/>
+      <line x1="340" y1="270" x2="460" y2="270"/>
+      <line x1="380" y1="210" x2="380" y2="280"/>
+      <line x1="420" y1="210" x2="420" y2="280"/>
+    </g>
+    <text x="400" y="305" text-anchor="middle" font-size="13" fill="#5b6472">budget.xlsx</text>
+  </g>
+
+  <!-- Users connecting via links -->
+  <g>
+    <!-- connector lines -->
+    <line x1="150" y1="150" x2="320" y2="210" stroke="#1f6feb" stroke-width="2.5"/>
+    <line x1="150" y1="330" x2="320" y2="250" stroke="#1f6feb" stroke-width="2.5"/>
+    <line x1="650" y1="150" x2="480" y2="210" stroke="#1f6feb" stroke-width="2.5"/>
+    <line x1="650" y1="330" x2="480" y2="250" stroke="#1f6feb" stroke-width="2.5"/>
+  </g>
+
+  <!-- person/browser icons -->
+  <g>
+    <!-- top left -->
+    <rect x="80" y="110" width="90" height="78" rx="8" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+    <rect x="80" y="110" width="90" height="18" rx="8" fill="#1f6feb"/>
+    <circle cx="125" cy="158" r="12" fill="#5b6472"/>
+    <path d="M108 178 a17 17 0 0 1 34 0 z" fill="#5b6472"/>
+    <!-- bottom left -->
+    <rect x="80" y="292" width="90" height="78" rx="8" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+    <rect x="80" y="292" width="90" height="18" rx="8" fill="#1f6feb"/>
+    <circle cx="125" cy="340" r="12" fill="#5b6472"/>
+    <path d="M108 360 a17 17 0 0 1 34 0 z" fill="#5b6472"/>
+    <!-- top right -->
+    <rect x="630" y="110" width="90" height="78" rx="8" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+    <rect x="630" y="110" width="90" height="18" rx="8" fill="#1f6feb"/>
+    <circle cx="675" cy="158" r="12" fill="#5b6472"/>
+    <path d="M658 178 a17 17 0 0 1 34 0 z" fill="#5b6472"/>
+    <!-- bottom right -->
+    <rect x="630" y="292" width="90" height="78" rx="8" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+    <rect x="630" y="292" width="90" height="18" rx="8" fill="#1f6feb"/>
+    <circle cx="675" cy="340" r="12" fill="#5b6472"/>
+    <path d="M658 360 a17 17 0 0 1 34 0 z" fill="#5b6472"/>
+  </g>
+
+  <!-- crossed-out pile of emailed copies -->
+  <g>
+    <text x="400" y="398" text-anchor="middle" font-size="13" fill="#5b6472">no emailed copies</text>
+  </g>
+
+  <text x="400" y="135" text-anchor="middle" font-size="13" fill="#5b6472">link + permissions, browser only</text>
+</svg>

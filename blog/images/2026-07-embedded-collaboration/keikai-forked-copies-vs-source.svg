@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" font-family="'Segoe UI', system-ui, sans-serif">
+  <rect width="800" height="450" fill="#f7f9fc"/>
+  <text x="400" y="40" text-anchor="middle" font-size="22" font-weight="700" fill="#1a2233">Many forked copies, or one server-hosted Book</text>
+
+  <!-- diverging file copies -->
+  <g transform="translate(70,120) rotate(-7)">
+    <rect x="0" y="0" width="130" height="80" rx="6" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+    <rect x="0" y="0" width="130" height="16" rx="6" fill="#217346" opacity="0.85"/>
+    <rect x="0" y="8" width="130" height="8" fill="#217346" opacity="0.85"/>
+    <text x="8" y="12" font-size="9" font-weight="700" fill="#ffffff">budget-v2.xlsx</text>
+    <g stroke="#e6eaf0" stroke-width="1"><line x1="0" y1="40" x2="130" y2="40"/><line x1="0" y1="60" x2="130" y2="60"/><line x1="65" y1="16" x2="65" y2="80"/></g>
+  </g>
+  <g transform="translate(200,150) rotate(6)">
+    <rect x="0" y="0" width="130" height="80" rx="6" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+    <rect x="0" y="0" width="130" height="16" rx="6" fill="#217346" opacity="0.85"/>
+    <rect x="0" y="8" width="130" height="8" fill="#217346" opacity="0.85"/>
+    <text x="8" y="12" font-size="9" font-weight="700" fill="#ffffff">budget-final.xlsx</text>
+    <g stroke="#e6eaf0" stroke-width="1"><line x1="0" y1="40" x2="130" y2="40"/><line x1="0" y1="60" x2="130" y2="60"/><line x1="65" y1="16" x2="65" y2="80"/></g>
+  </g>
+  <g transform="translate(80,240) rotate(4)">
+    <rect x="0" y="0" width="130" height="80" rx="6" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+    <rect x="0" y="0" width="130" height="16" rx="6" fill="#217346" opacity="0.85"/>
+    <rect x="0" y="8" width="130" height="8" fill="#217346" opacity="0.85"/>
+    <text x="8" y="12" font-size="9" font-weight="700" fill="#ffffff">budget-v3-FINAL.xlsx</text>
+    <g stroke="#e6eaf0" stroke-width="1"><line x1="0" y1="40" x2="130" y2="40"/><line x1="0" y1="60" x2="130" y2="60"/><line x1="65" y1="16" x2="65" y2="80"/></g>
+  </g>
+  <g transform="translate(215,255) rotate(-5)">
+    <rect x="0" y="0" width="130" height="80" rx="6" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+    <rect x="0" y="0" width="130" height="16" rx="6" fill="#217346" opacity="0.85"/>
+    <rect x="0" y="8" width="130" height="8" fill="#217346" opacity="0.85"/>
+    <text x="8" y="12" font-size="9" font-weight="700" fill="#ffffff">budget (1).xlsx</text>
+    <g stroke="#e6eaf0" stroke-width="1"><line x1="0" y1="40" x2="130" y2="40"/><line x1="0" y1="60" x2="130" y2="60"/><line x1="65" y1="16" x2="65" y2="80"/></g>
+  </g>
+
+  <!-- arrow -->
+  <line x1="360" y1="225" x2="462" y2="225" stroke="#217346" stroke-width="3"/>
+  <polygon points="472,225 460,218 460,232" fill="#217346"/>
+  <text x="416" y="214" text-anchor="middle" font-size="12" font-weight="700" fill="#217346">Keikai</text>
+
+  <!-- one server-hosted Book -->
+  <rect x="490" y="110" width="270" height="220" rx="14" fill="#ffffff" stroke="#1f6feb" stroke-width="2.5"/>
+  <text x="625" y="136" text-anchor="middle" font-size="14" font-weight="700" fill="#1f6feb">One server-hosted Book</text>
+  <rect x="560" y="152" width="130" height="104" rx="8" fill="#ffffff" stroke="#217346" stroke-width="2"/>
+  <rect x="560" y="152" width="130" height="22" rx="8" fill="#217346"/>
+  <rect x="560" y="164" width="130" height="10" fill="#217346"/>
+  <text x="625" y="168" text-anchor="middle" font-size="11" font-weight="700" fill="#ffffff">budget.xlsx</text>
+  <g stroke="#d0d7de" stroke-width="1">
+    <line x1="560" y1="200" x2="690" y2="200"/>
+    <line x1="560" y1="228" x2="690" y2="228"/>
+    <line x1="603" y1="174" x2="603" y2="256"/>
+    <line x1="647" y1="174" x2="647" y2="256"/>
+  </g>
+  <text x="625" y="290" text-anchor="middle" font-size="12" fill="#5b6472">single source of truth</text>
+  <text x="625" y="310" text-anchor="middle" font-size="12" fill="#5b6472">state never leaves the server</text>
+</svg>
