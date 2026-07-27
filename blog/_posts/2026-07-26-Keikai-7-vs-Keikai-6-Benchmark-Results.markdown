@@ -18,8 +18,6 @@ imgDir: "2026-07-keikai7-benchmarks"
 javadoc: "http://keikai.io/javadoc/latest/"
 ---
 
-![]({{ site.baseurl }}/images/{{page.imgDir}}/cover.svg)
-
 # Keikai 7 vs Keikai 6: Benchmark Results
 
 Keikai 7 replaces the Apache POI-based backend with a native Rust engine. This post reports the measured impact on the scenarios that matter most in real applications.
@@ -36,7 +34,7 @@ Keikai 7 is currently in beta, and the numbers below are from the current eval b
 
 Keikai 6 used Apache POI internally to read, write, and evaluate Excel workbooks. Keikai 7 replaces this with a native Rust engine, shipped as a JNI library. File I/O, formula evaluation, and bulk cell access no longer go through POI's Java data structures and code paths.
 
-For most applications, the upgrade is a version bump. Applications that customize on top of Apache POI directly may need adjustments — details in the upgrade guide.
+For most applications, the upgrade is a version bump. Applications that customize on top of Apache POI directly may need adjustments — details in the [upgrade guide](https://doc.keikai.io/dev-ref/From6to7).
 
 ## The numbers
 
@@ -59,7 +57,7 @@ For most applications, the upgrade is a version bump. Applications that customiz
 
 | Scenario | Keikai 6 | Keikai 7 | Speed-up |
 |---|---:|---:|---:|
-| Open a 1M-formula workbook | 14.5 s | 5.5 s | **up to ~2.6× faster** |
+| Open a 1M-formula workbook | 14.5 s | 5.5 s | **~2.6× faster** |
 | Open a 100k-formula workbook | 1.58 s | 0.82 s | **~1.9× faster** |
 | Open a 1M-cell value workbook | 2.15 s | 1.38 s | **~1.5× faster** |
 
@@ -83,4 +81,4 @@ Each measurement is 10 timed runs per version in ABAB blocks, with a fresh JVM p
 
 For applications that spend meaningful time opening, saving, or working with large workbooks, Keikai 7 removes a substantial portion of that cost. The gains are largest where the previous engine spent the most time in POI's data structures — which happens to be exactly where enterprise workloads tend to hit performance limits.
 
-Keikai 7 is in beta now. You can try it in the [Keikai 7 live demo](#) or read the [Keikai 7 beta release notes](#) for details.
+Keikai 7 is in beta now. You can try it in the [Keikai 7 live demo](https://keikai.io/demo/) or read the [Keikai 7 beta release notes](https://keikai.io/releasenotes) for details.

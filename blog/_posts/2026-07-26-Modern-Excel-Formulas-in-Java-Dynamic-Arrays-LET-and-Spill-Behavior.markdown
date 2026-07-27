@@ -18,8 +18,6 @@ imgDir: "2026-07-excel-formulas-java"
 javadoc: "http://keikai.io/javadoc/latest/"
 ---
 
-![]({{ site.baseurl }}/images/{{page.imgDir}}/cover.svg)
-
 # Modern Excel Formulas in Java: Dynamic Arrays, LET, and Spill Behavior
 
 Excel's formula language has changed more in the last few years than in the previous decade, and those changes are already showing up in the workbooks your users upload.
@@ -46,7 +44,7 @@ With dynamic arrays, one formula can return many values, and those values "spill
 =UNIQUE(A1:A6)
 ```
 
-![]({{ site.baseurl }}/images/{{page.imgDir}}/unique-example.png)
+![]({{ site.baseurl }}/images/{{page.imgDir}}/unique-example.svg)
 
 Figure 1. The traditional one-value-per-formula model compared with the dynamic array model. A single `UNIQUE` formula in B1 spills its results into B2 and B3.
 
@@ -142,7 +140,7 @@ Some of these were introduced in Keikai 6.3. The remaining functions and the und
 
 In practice, this means a workbook that uses modern Excel formulas can be opened in a Keikai-based web application and behave the same way it does on the user's desktop. Formulas do not need to be rewritten, and users do not need to fall back to legacy patterns.
 
-For the complete list of supported functions and details on dynamic array behavior, see the [Keikai 7 documentation](#).
+For the complete list of supported functions and details on dynamic array behavior, see the [Keikai 7 documentation](https://doc.keikai.io/dev-ref/book_model/Dynamic_Array_Formulas_and_Spill).
 
 ## Closing
 
@@ -150,4 +148,4 @@ Excel's formula language is no longer just a grid of numbers with simple functio
 
 For Java applications that embed a spreadsheet component, the choice of engine determines whether users can bring their existing Excel work directly to the browser, or whether they have to adapt their files to fit the limits of the library.
 
-Keikai 7 supports the modern behavior. You can try it in the [Keikai 7 live demo](#) or read the [Keikai 7 release notes](#) for the full list of supported functions.
+Keikai 7 supports the modern behavior. You can try it in the [Keikai 7 live demo](https://keikai.io/demo/) or read the [Keikai 7 release notes](https://keikai.io/releasenotes) for the full list of supported functions.
