@@ -7,7 +7,26 @@
       "PowerShell(\\(ls \"C:\\\\Users\\\\home1\\\\Downloads\\\\website\\\\keikai\\\\keikai-blog\\\\blog\\\\images\" -Directory\\).Count)",
       "PowerShell(head *)",
       "PowerShell(\\(ls \"C:\\\\Users\\\\home1\\\\Downloads\\\\website\\\\keikai\\\\keikai-blog\\\\blog\\\\images\" -Directory\\) | Select-Object -First 30)",
-      "Bash(dir C:\\\\Users\\\\home1\\\\Downloads\\\\website\\\\keikai\\\\keikai-blog *)"
+      "Bash(dir C:\\\\Users\\\\home1\\\\Downloads\\\\website\\\\keikai\\\\keikai-blog *)",
+      "Read(//c/Users/home1/OneDrive/Documents/Blog2/**)",
+      "Read(//c/Users/home1/OneDrive/Documents/blog1/**)",
+      "Bash(python3 -c \"print\\('py3 ok'\\)\")",
+      "Bash(python -c \"print\\('py ok'\\)\")",
+      "Bash(python *)",
+      "Bash(mkdir -p /tmp/docx_extract)",
+      "Bash(unzip -o \"C:\\\\Users\\\\home1\\\\OneDrive\\\\Documents\\\\blog1\\\\KK7_blog-Modern_Excel_Formulas_in_Java-updated\\(尚未加入圖片\\).docx\" -d /tmp/docx_extract)",
+      "Read(//tmp/docx_extract/**)",
+      "Bash(mkdir -p /c/Users/home1/AppData/Local/Temp/claude/C--Users-home1-Downloads-website-keikai-keikai-blog/7669fa2a-1a1d-4b85-890a-cb2160bdca7e/scratchpad/docx_extract)",
+      "Bash(unzip -o 'C:\\\\Users\\\\home1\\\\OneDrive\\\\Documents\\\\blog1\\\\KK7_blog-Modern_Excel_Formulas_in_Java-updated\\(尚未加入圖片\\).docx' -d /c/Users/home1/AppData/Local/Temp/claude/C--Users-home1-Downloads-website-keikai-keikai-blog/7669fa2a-1a1d-4b85-890a-cb2160bdca7e/scratchpad/docx_extract)",
+      "Read(//c/Users/home1/AppData/Local/Temp/claude/C--Users-home1-Downloads-website-keikai-keikai-blog/7669fa2a-1a1d-4b85-890a-cb2160bdca7e/scratchpad/docx_extract/**)",
+      "Bash(xargs -I{} sh -c 'echo {}; head -20 \"{}\"')",
+      "Bash(mkdir -p \"/c/Users/home1/Downloads/website/keikai/keikai-blog/blog/images/2026-07-excel-formulas-java\")",
+      "Bash(mkdir -p \"/c/Users/home1/Downloads/website/keikai/keikai-blog/blog/images/2026-07-keikai7-benchmarks\")",
+      "Bash(cp \"/c/Users/home1/OneDrive/Documents/blog1/cover-formulas-blog1.svg\" \"/c/Users/home1/Downloads/website/keikai/keikai-blog/blog/images/2026-07-excel-formulas-java/cover.svg\")",
+      "Bash(cp \"/c/Users/home1/OneDrive/Documents/blog1/UNIQUE.png\" \"/c/Users/home1/Downloads/website/keikai/keikai-blog/blog/images/2026-07-excel-formulas-java/unique-example.png\")",
+      "Bash(cp \"/c/Users/home1/OneDrive/Documents/Blog2/cover-performance-blog2.svg\" \"/c/Users/home1/Downloads/website/keikai/keikai-blog/blog/images/2026-07-keikai7-benchmarks/cover.svg\")",
+      "Bash(ruby -v)",
+      "PowerShell(Get-Command *)"
     ]
   }
 }
