@@ -26,7 +26,9 @@
       "Bash(cp \"/c/Users/home1/OneDrive/Documents/blog1/UNIQUE.png\" \"/c/Users/home1/Downloads/website/keikai/keikai-blog/blog/images/2026-07-excel-formulas-java/unique-example.png\")",
       "Bash(cp \"/c/Users/home1/OneDrive/Documents/Blog2/cover-performance-blog2.svg\" \"/c/Users/home1/Downloads/website/keikai/keikai-blog/blog/images/2026-07-keikai7-benchmarks/cover.svg\")",
       "Bash(ruby -v)",
-      "PowerShell(Get-Command *)"
+      "PowerShell(Get-Command *)",
+      "Bash(git status *)",
+      "Bash(git mv *)"
     ]
   }
 }

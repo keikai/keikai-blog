@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Keikai 7 vs Keikai 6: Benchmark Results"
-date:   2026-07-26
+date:   2026-08-13
 categories: "Application"
 excerpt: "Keikai 7 replaces the Apache POI-based backend with a native Rust engine. Here are the measured gains for opening, saving, and working with large workbooks."
 

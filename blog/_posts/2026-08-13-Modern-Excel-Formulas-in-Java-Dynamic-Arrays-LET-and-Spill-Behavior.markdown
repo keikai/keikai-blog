@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Modern Excel Formulas in Java: Dynamic Arrays, LET, and Spill Behavior"
-date:   2026-07-26
+date:   2026-08-13
 categories: "Application"
 excerpt: "Excel's formula language has moved well past SUM and VLOOKUP. Here's what dynamic arrays, LET, and spill behavior change for Java applications, and where Keikai 7 stands."
 
