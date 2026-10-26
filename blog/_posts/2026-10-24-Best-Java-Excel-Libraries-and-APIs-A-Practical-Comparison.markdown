@@ -24,7 +24,7 @@ javadoc: "http://keikai.io/javadoc/latest/"
 
 ## TL;DR
 
-The right Java Excel library depends on what your application needs to do. Apache POI remains the default free option for common Excel reading and writing. EasyExcel is known for memory-efficient Excel imports and exports with convenient Java object mapping; its related successor, FastExcel, now continues as Apache Fesod (Incubating). The commercial alternatives address broader requirements: Axyra Sheets for Java combines broad modern spreadsheet capabilities, including formula calculation, rendering, and AI-assisted development, in a streamlined Java API; Aspose.Cells for Java offers broad format, rendering, and legacy-workbook coverage; and MESCIUS DsExcel Java emphasizes high-volume processing, template-based reporting, and integration with the wider MESCIUS spreadsheet ecosystem. JExcelAPI is mainly relevant to older applications that still work with legacy XLS files.
+The right Java Excel library depends on what your application needs to do. Apache POI remains the default free option for common Excel reading and writing. EasyExcel is known for memory-efficient Excel imports and exports with convenient Java object mapping; its related successor, FastExcel, now continues as Apache Fesod (Incubating). The commercial alternatives address broader requirements: Axyra Sheets for Java combines broad modern spreadsheet capabilities, including formula calculation, rendering, and AI-assisted development, in a streamlined Java API; Aspose.Cells for Java offers broad format, rendering, and legacy-workbook coverage; and MESCIUS DsExcel Java emphasizes high-volume processing and template-based reporting. JExcelAPI is mainly relevant to older applications that still work with legacy XLS files.
 
 ## Table of Contents
 
@@ -134,7 +134,7 @@ If Apache POI no longer meets your requirements for formula calculation, renderi
 
 ### What is the best Excel library for Java?
 
-There is no single answer for every workload. Apache POI is a strong free choice for common reading and writing. The EasyExcel/FastExcel family fits large, tabular XLSX workloads where low memory use is the priority. Axyra Sheets provides broad modern formula support, direct PDF and image rendering, charts, pivots, large-file processing, and AI-assisted development. Aspose.Cells provides broad enterprise and legacy coverage, while DsExcel is particularly strong in template-driven reporting and large-scale processing.
+There is no single answer for every workload. Apache POI is a strong free choice for common reading and writing. The EasyExcel/Fesod family fits large, tabular XLSX workloads where low memory use is the priority. Axyra Sheets provides broad modern formula support, direct PDF and image rendering, charts, pivots, large-file processing, and AI-assisted development. Aspose.Cells provides broad enterprise and legacy coverage, while DsExcel is particularly strong in template-driven reporting and large-scale processing.
 
 ### Can Apache POI export Excel files directly to PDF?
 

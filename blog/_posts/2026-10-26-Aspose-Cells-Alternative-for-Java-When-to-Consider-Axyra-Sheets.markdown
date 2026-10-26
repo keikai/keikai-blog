@@ -75,7 +75,7 @@ When evaluating an Aspose.Cells alternative for Java, start with your applicatio
 | Charts and pivot tables, including runtime aggregation | Broad chart and pivot functionality | Chart creation and rendering, pivot support, and runtime aggregation |
 | File format coverage (XLSX, XLS, ODS, CSV, and more) | Broad spreadsheet, text, web, and export formats | XLSX, XLS, and ODS, with PDF and image output |
 | Template-based Reporting | Smart Markers | Populate existing workbook templates through the API |
-| AI-assisted development | Web-based documentation assistant | Dedicated Agent Skill for in-workflow development |
+| AI-assisted development | Web-based documentation assistant | Dedicated Agent Skill for in-workflow development, plus an AI-friendly API design |
 | Licensing model | Multiple tiers by developer count and deployment scope; pro support sold separately | Two tiers (internal use and OEM/SaaS); support included |
 
 *The table summarizes each vendor's documented capabilities and licensing options. See the sections below for details.*
@@ -98,6 +98,7 @@ Axyra Sheets is a server-side Java API designed around common enterprise spreads
 - Built-in Excel-to-PDF and Excel-to-image rendering, with charts and formatting preserved.
 - Chart creation, pivot table support, and runtime pivot aggregation rather than just cached values.
 - An AI development assistant (Axyra Agent Skill) grounded in Axyra's own docs and examples, designed to generate API-specific Java code and help developers identify the appropriate Axyra APIs from natural-language requirements.
+- An AI-friendly API designed for clarity, so AI coding assistants can understand each method's intent without guesswork. Method names and behavior are predictable: for example, a `get` method only reads data and never modifies it.
 - Migration guides, examples, and Agent Skill assistance for teams moving from another spreadsheet library.
 
 Together, these capabilities place Axyra much closer to a full commercial spreadsheet-processing library than to a basic read/write API. For applications centered on modern Excel processing, Axyra provides broad commercial-grade capabilities across formula calculation, rendering, charts, pivots, and large-file processing, together with a streamlined Java API and dedicated Agent Skill.
