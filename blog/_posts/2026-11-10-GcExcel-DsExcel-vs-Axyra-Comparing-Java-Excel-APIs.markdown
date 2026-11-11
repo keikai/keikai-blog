@@ -102,9 +102,9 @@ Before committing either way, run the same evaluation against your own files:
 
 ## Frequently Asked Questions
 
-### Is DsExcel Java Good for Server-Side Excel Processing?
+### Is Axyra Sheets an Alternative to DsExcel Java?
 
-Yes. DsExcel Java supports server-side workbook creation, formula calculation, charts, pivots, rendering, and template-driven reporting without requiring Microsoft Excel. Evaluate its capabilities and licensing against your application's requirements.
+Yes. Axyra Sheets supports server-side formula calculation, charts, pivots, template-based reporting, and PDF/image rendering. It also offers the Axyra Agent Skill for AI-assisted development and migration. Evaluate your required workbook features and output against representative files before switching.
 
 ### How Does Axyra's Pricing Compare with DsExcel?
 
